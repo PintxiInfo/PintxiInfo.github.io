@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #0836dc;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2224,7 +2224,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #ffffff;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2509,7 +2509,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #ffffff;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2519,8 +2519,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #212931;
-		border-color: #212931;
+		background-color: #ffffff;
+		border-color: #ffffff;
 		color: #ffffff;
 	}
 
@@ -2646,7 +2646,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 76px) {
 
 			.image.fit {
 				margin: 2rem 0;
@@ -3080,12 +3080,12 @@ input, select, textarea {
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(220, 220, 220, 0.25);
+			background-color: rgba(255, 255, 255, 0.25);
 		}
 
-	table th {
-		color: #212931;
-	}
+	/*table th {s
+		color: #ffffff;
+	}*/
 
 	table thead {
 		border-bottom-color: #eeeeee;
@@ -3231,15 +3231,10 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/typo\ \(1\).jpeg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
-			z-index: -1;
+			width: 50%;
+			height: 50%;
+			background-color: #000000;
+			/*background-image: url("../../images/terra.jpeg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));*/
 		}
 
 			#wrapper > .bg.fixed {
